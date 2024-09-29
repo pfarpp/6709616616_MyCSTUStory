@@ -138,6 +138,10 @@ th {
 
 
 ul {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 10px;
     padding-left: 20px;
 }
 
@@ -273,4 +277,53 @@ a:hover {
     top: 580px;
     z-index: 1;;  
     transform: rotate(45deg);
+}
+
+.plan1, .plan2 ,.plan3 ,.plan4 ,.plan5 ,.plan6 ,.plan7 ,.plan8 ,.plan9 ,.plan10 {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fffcf2;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.head-myfuture {
+    text-align: center;
+    padding: 30px;
+}
+
+.head-myfuture1 h1 {
+    font-family: "Swanky and Moo Moo", cursive;
+    color: #51658b ;
+    margin: 0;
+}
+
+.phead-myfuture p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #9c7979;
+    margin: 0;
+}
+
+.plan1 h2, .plan2 h2, .plan3 h2, .plan4 h2, .plan5 h2, .plan6 h2, .plan7 h2, .plan8 h2, .plan9 h2, .plan10 h2 {
+    font-family: "Swanky and Moo Moo", cursive;
+    color: #b890b2;
+    text-align: center;
+}
+
+.mf-img1 {
+    width: 250px;
+    height:250px;
+    background-image: url('resources/star.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    z-index: 0;
+    transform: rotate(90deg);                                                                                                                                                                                                                                                                              
 }
