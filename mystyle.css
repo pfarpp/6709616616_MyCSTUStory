@@ -282,7 +282,7 @@ a:hover {
 .plan1, .plan2 ,.plan3 ,.plan4 ,.plan5 ,.plan6 ,.plan7 ,.plan8 ,.plan9 ,.plan10 {
     padding: 40px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 550px;
     background-color: #fffcf2;
     border: 1px solid hsl(0, 0%, 87%);
     border-radius: 8px;
@@ -322,8 +322,82 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    left: -100px;
+    left: 500px;
     top: -100px;
     z-index: 0;
     transform: rotate(90deg);                                                                                                                                                                                                                                                                              
+}
+
+.mf-img2 {
+    width: 180px;
+    height: 150px;
+    background-image: url('resources/yellow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 530px;
+    top: -0px;
+    z-index: 0;
+    transform: rotate(20deg);
+}
+
+.mf-img3 {
+    width: 140px;
+    height: 140px;
+    background-image: url('resources/tai.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -80px;
+    top: 80px;
+    z-index: 0;;  
+    transform: rotate(-15deg);                                                                                                                                                                                                                                                                               
+}
+
+.mf-img4 {
+    width: 180px;
+    height: 150px;
+    background-image: url('resources/yellow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -90px;
+    top: -0px;
+    z-index: 0;
+    transform: rotate(-20deg);
+}
+
+.mf-img5 {
+    width: 140px;
+    height: 140px;
+    background-image: url('resources/mhee.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 550px;
+    top: 50px;
+    z-index: 0;;  
+    transform: rotate(30deg);                                                                                                                                                                                                                                                                               
+}
+
+.year1 h2, .year2 h2, .year3 h2, .year4 h2 {
+    font-family: "Swanky and Moo Moo", cursive;
+    color: #b890b2;
+    text-align: center;
+}
+
+.year1, .year2 ,.year3 ,.year4 {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 550px;
+    background-color: #fffcf2;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 30px;
 }
